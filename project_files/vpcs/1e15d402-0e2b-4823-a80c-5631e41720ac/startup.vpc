@@ -1,0 +1,2 @@
+set pcname EnginVLANPC1
+ip 10.138.0.1 10.138.0.253 24

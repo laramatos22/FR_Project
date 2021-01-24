@@ -1,0 +1,2 @@
+set pcname AdminVLANPC1
+ip 10.138.1.1 10.138.1.253 24

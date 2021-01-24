@@ -1,0 +1,44 @@
+Dec 29 15:21:40.353 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 29 15:21:40.353 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43677.
+Dec 29 15:21:40.364 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 15:21:40.364 HYPERVISOR: exec_cmd: hypervisor working_dir /home/laramatos/Documentos/FR/ProjetoFR/Projeto/project-files/dynamips 
+Dec 29 15:21:40.364 GENERAL: working_dir=/home/laramatos/Documentos/FR/ProjetoFR/Projeto/project-files/dynamips
+Dec 29 15:21:40.365 HYPERVISOR: exec_cmd: hypervisor working_dir /home/laramatos/Documentos/FR/ProjetoFR/Projeto/project-files/dynamips/25cf5162-9b2e-47f5-bd5f-ae4cbee31dd4 
+Dec 29 15:21:40.365 GENERAL: working_dir=/home/laramatos/Documentos/FR/ProjetoFR/Projeto/project-files/dynamips/25cf5162-9b2e-47f5-bd5f-ae4cbee31dd4
+Dec 29 15:21:40.365 HYPERVISOR: exec_cmd: vm create SWL3F1 2 c3725 
+Dec 29 15:21:40.365 VM: VM SWL3F1 created.
+Dec 29 15:21:40.365 HYPERVISOR: exec_cmd: vm set_con_tcp_port SWL3F1 5052 
+Dec 29 15:21:40.366 HYPERVISOR: exec_cmd: c3725 get_mac_addr SWL3F1 
+Dec 29 15:21:40.366 HYPERVISOR: exec_cmd: vm set_disk0 SWL3F1 2 
+Dec 29 15:21:40.367 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:21:40.367 HYPERVISOR: exec_cmd: vm set_idle_pc SWL3F1 0x60a68e70 
+Dec 29 15:21:40.368 HYPERVISOR: exec_cmd: vm set_ios SWL3F1 /home/laramatos/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Dec 29 15:21:40.368 HYPERVISOR: exec_cmd: c3725 set_mac_addr SWL3F1 c202.1732.0000 
+Dec 29 15:21:40.369 HYPERVISOR: exec_cmd: vm set_nvram SWL3F1 256 
+Dec 29 15:21:40.369 HYPERVISOR: exec_cmd: vm set_ram SWL3F1 256 
+Dec 29 15:21:40.370 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:21:40.370 HYPERVISOR: exec_cmd: vm slot_add_binding SWL3F1 1 0 NM-16ESW 
+Dec 29 15:21:43.891 HYPERVISOR: exec_cmd: nio create_udp udp-0d955017-0bfe-4492-aa2f-9aedcc639171 10050 127.0.0.1 10051 
+Dec 29 15:21:44.106 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3F1 1 2 udp-0d955017-0bfe-4492-aa2f-9aedcc639171 
+Dec 29 15:21:44.107 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:21:44.226 HYPERVISOR: exec_cmd: nio create_udp udp-89aa4da0-9c82-42f9-9521-c24d5b8f200d 10054 127.0.0.1 10055 
+Dec 29 15:21:44.228 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3F1 1 3 udp-89aa4da0-9c82-42f9-9521-c24d5b8f200d 
+Dec 29 15:21:44.229 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:21:44.805 HYPERVISOR: exec_cmd: nio create_udp udp-4cb6b78a-4635-4ca0-9a1d-d17412bc9501 10070 127.0.0.1 10071 
+Dec 29 15:21:44.807 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3F1 1 0 udp-4cb6b78a-4635-4ca0-9a1d-d17412bc9501 
+Dec 29 15:21:44.807 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:21:45.424 HYPERVISOR: exec_cmd: nio create_udp udp-9c9e1e10-a923-40a6-94fc-a8019afc2319 10098 127.0.0.1 10099 
+Dec 29 15:21:45.427 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3F1 1 4 udp-9c9e1e10-a923-40a6-94fc-a8019afc2319 
+Dec 29 15:21:45.427 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:21:45.638 HYPERVISOR: exec_cmd: nio create_udp udp-5f1a6c77-df28-4e5c-b9f4-02595d0bc4d1 10108 127.0.0.1 10109 
+Dec 29 15:21:45.640 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SWL3F1 1 1 udp-5f1a6c77-df28-4e5c-b9f4-02595d0bc4d1 
+Dec 29 15:21:45.640 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:22:02.950 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:22:02.955 HYPERVISOR: exec_cmd: vm extract_config SWL3F1 
+Dec 29 15:22:03.521 HYPERVISOR: exec_cmd: vm get_status SWL3F1 
+Dec 29 15:22:03.521 HYPERVISOR: exec_cmd: vm extract_config SWL3F1 
+Dec 29 15:22:03.522 HYPERVISOR: exec_cmd: vm delete SWL3F1 
+Dec 29 15:22:03.522 VM: VM SWL3F1 destroyed.
+Dec 29 15:22:03.523 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 15:22:03.883 HYPERVISOR: Stopped.
+Dec 29 15:22:03.883 GENERAL: reset done.

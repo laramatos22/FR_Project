@@ -1,0 +1,22 @@
+uBridge version 0.9.18 running with libpcap version 1.9.1 (with TPACKET_V3)
+Hypervisor TCP control server started (IP 127.0.0.1 port 42823).
+UDP tunnel connecting from local port 10051 to IPv4 address 127.0.0.1 on port 10050
+UDP tunnel connecting from local port 10048 to IPv4 address 127.0.0.1 on port 10049
+Source NIO listener thread for DYNAMIPS-10050-10051 has started
+Destination NIO listener thread for DYNAMIPS-10050-10051 has started
+UDP tunnel connecting from local port 10055 to IPv4 address 127.0.0.1 on port 10054
+UDP tunnel connecting from local port 10052 to IPv4 address 127.0.0.1 on port 10053
+Source NIO listener thread for DYNAMIPS-10054-10055 has started
+Destination NIO listener thread for DYNAMIPS-10054-10055 has started
+UDP tunnel connecting from local port 10071 to IPv4 address 127.0.0.1 on port 10070
+UDP tunnel connecting from local port 10068 to IPv4 address 127.0.0.1 on port 10069
+Destination NIO listener thread for DYNAMIPS-10070-10071 has started
+Source NIO listener thread for DYNAMIPS-10070-10071 has started
+UDP tunnel connecting from local port 10099 to IPv4 address 127.0.0.1 on port 10098
+UDP tunnel connecting from local port 10095 to IPv4 address 127.0.0.1 on port 10094
+Destination NIO listener thread for DYNAMIPS-10098-10099 has started
+Source NIO listener thread for DYNAMIPS-10098-10099 has started
+UDP tunnel connecting from local port 10109 to IPv4 address 127.0.0.1 on port 10108
+UDP tunnel connecting from local port 10106 to IPv4 address 127.0.0.1 on port 10107
+Destination NIO listener thread for DYNAMIPS-10108-10109 has started
+Source NIO listener thread for DYNAMIPS-10108-10109 has started

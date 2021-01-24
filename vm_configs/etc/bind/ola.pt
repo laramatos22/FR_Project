@@ -1,0 +1,14 @@
+$TTL 604800
+$ORIGIN ola.pt.
+@	IN	SOA	ns1.ola.pt. adm.ola.pt. (
+			2	    ; Serial
+			604800	    ; Refresh
+			86400	    ; Retry
+			2419200	    ; Expire
+			604800)	    ; Negative Cache TTL
+	IN	NS	ns1.ola.pt.
+ns1	IN	A	192.168.50.100
+@	IN	A	200.143.128.114
+www	IN	A	200.143.128.114
+siteA 	IN	A	192.168.50.100
+hostPC	IN	A	192.168.50.100

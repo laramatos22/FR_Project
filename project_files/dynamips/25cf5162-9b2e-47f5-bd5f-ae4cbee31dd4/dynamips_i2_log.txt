@@ -1,0 +1,16 @@
+Dec 29 15:21:40.198 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 29 15:21:40.198 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55521.
+Dec 29 15:21:40.209 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 15:21:40.210 HYPERVISOR: exec_cmd: hypervisor working_dir /home/laramatos/Documentos/FR/ProjetoFR/Projeto/project-files/dynamips 
+Dec 29 15:21:40.210 GENERAL: working_dir=/home/laramatos/Documentos/FR/ProjetoFR/Projeto/project-files/dynamips
+Dec 29 15:21:40.210 HYPERVISOR: exec_cmd: ethsw create Floors11-20 
+Dec 29 15:21:41.149 HYPERVISOR: exec_cmd: nio create_udp udp-ed8b5981-82bd-41b8-8910-f455681fb7db 10005 127.0.0.1 10004 
+Dec 29 15:21:41.149 HYPERVISOR: exec_cmd: ethsw add_nio Floors11-20 udp-ed8b5981-82bd-41b8-8910-f455681fb7db 
+Dec 29 15:21:41.161 HYPERVISOR: exec_cmd: ethsw set_access_port Floors11-20 udp-ed8b5981-82bd-41b8-8910-f455681fb7db 1 
+Dec 29 15:21:43.785 HYPERVISOR: exec_cmd: nio create_udp udp-32252699-83ab-472e-8c2c-93d9676b1564 10045 127.0.0.1 10044 
+Dec 29 15:21:43.785 HYPERVISOR: exec_cmd: ethsw add_nio Floors11-20 udp-32252699-83ab-472e-8c2c-93d9676b1564 
+Dec 29 15:21:43.795 HYPERVISOR: exec_cmd: ethsw set_access_port Floors11-20 udp-32252699-83ab-472e-8c2c-93d9676b1564 1 
+Dec 29 15:22:03.031 HYPERVISOR: exec_cmd: ethsw delete Floors11-20 
+Dec 29 15:22:03.056 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 15:22:03.230 HYPERVISOR: Stopped.
+Dec 29 15:22:03.230 GENERAL: reset done.

@@ -1,0 +1,19 @@
+Dec 29 15:21:40.158 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Dec 29 15:21:40.158 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 35171.
+Dec 29 15:21:40.169 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 15:21:40.169 HYPERVISOR: exec_cmd: hypervisor working_dir /home/laramatos/Documentos/FR/ProjetoFR/Projeto/project-files/dynamips 
+Dec 29 15:21:40.169 GENERAL: working_dir=/home/laramatos/Documentos/FR/ProjetoFR/Projeto/project-files/dynamips
+Dec 29 15:21:40.170 HYPERVISOR: exec_cmd: ethsw create Pisos11-20 
+Dec 29 15:21:40.915 HYPERVISOR: exec_cmd: nio create_udp udp-dc81bcb8-b177-4f73-827e-662dbc8a1adf 10001 127.0.0.1 10000 
+Dec 29 15:21:40.916 HYPERVISOR: exec_cmd: ethsw add_nio Pisos11-20 udp-dc81bcb8-b177-4f73-827e-662dbc8a1adf 
+Dec 29 15:21:40.921 HYPERVISOR: exec_cmd: ethsw set_access_port Pisos11-20 udp-dc81bcb8-b177-4f73-827e-662dbc8a1adf 1 
+Dec 29 15:21:41.022 HYPERVISOR: exec_cmd: nio create_udp udp-32a8ec7d-eded-4a61-a397-c2cd3e765673 10003 127.0.0.1 10002 
+Dec 29 15:21:41.022 HYPERVISOR: exec_cmd: ethsw add_nio Pisos11-20 udp-32a8ec7d-eded-4a61-a397-c2cd3e765673 
+Dec 29 15:21:41.043 HYPERVISOR: exec_cmd: ethsw set_access_port Pisos11-20 udp-32a8ec7d-eded-4a61-a397-c2cd3e765673 1 
+Dec 29 15:21:43.660 HYPERVISOR: exec_cmd: nio create_udp udp-d2409280-a67b-487d-a883-5c7a936afd56 10041 127.0.0.1 10040 
+Dec 29 15:21:43.661 HYPERVISOR: exec_cmd: ethsw add_nio Pisos11-20 udp-d2409280-a67b-487d-a883-5c7a936afd56 
+Dec 29 15:21:43.672 HYPERVISOR: exec_cmd: ethsw set_access_port Pisos11-20 udp-d2409280-a67b-487d-a883-5c7a936afd56 1 
+Dec 29 15:22:03.033 HYPERVISOR: exec_cmd: ethsw delete Pisos11-20 
+Dec 29 15:22:03.074 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 15:22:03.187 HYPERVISOR: Stopped.
+Dec 29 15:22:03.187 GENERAL: reset done.
